@@ -1,20 +1,185 @@
 body {
-    background-color: #EAF6F6;
+    margin: 0;
+    
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
-h1 {
-    color: #66BFBF;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+strong,
+b {
+    font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 54px;
+    text-align: center;
 }
 
 h3 {
-    color: #66BFBF;
+    font-size: 28px;
+}
+
+h1,
+h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0 0 10px;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.middle-container {}
+
+h2,
+h3 {
+    font-weight: 300;
+    color: #22A39F;
+}
+
+.bottom-container {}
+
+#experiences .experience {
+    margin-bottom: 20px;
+}
+
+#experiences .experience p > strong {
+    display: block;
+    padding-top: 8px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#experiences .experience .experience-details {
+    display: block;
+    margin-top: 6px;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* span {
+    outline: 1px solid #cc2643 !important;
+} */
+
+#experiences .experience .experience-details * {
+    color: #22A39F;
+}
+
+#experiences .experience-details > span {
+    display: block;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.experience-summary {
+    text-align: left;
+}
+
+#experiences .experience .experience-details .seperator { display: none; }
+
+#experiences .experience .experience-details .seperator {
+    color: #BCBCBC;
+ }
+
+.container {
+    max-width: 1280px;
+    padding: 10px 180px;
+}
+
+#technicalSkills ul>li .skills-title {
+    display: inline-block;
+    width: 70%;
+    text-align: left;
 }
 
 hr {
-    border-style: none;
-    border-top-style: dotted;
-    height: 0px;
-    width: 5%;
-    border-color: grey;
-    border-width: 5px;
+    margin: 40px 0px;
+    border-color: #727878;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+html,
+body {
+    color: #434242;
+    font-family: 'Open Sans', sans-serif !important;
+    height: 100%;
+}
+
+body {
+    background: #F3EFE0;
+    font-size: 15px;
+    line-height: 1.64;
+}
+
+.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#technicalSkills ul>li .skills-score {
+    float: right;
+}
+
+#technicalSkills ul>li .skills-score .glyphicon {
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+#technicalSkills ul>li .skills-score .glyphicon.filled {
+    color: #22A39F;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.hidden-phone {
+    text-align: left;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+@media (max-width: 767px) {
+    .container {padding: 60px 20px; min-width: 280px;}
+    .hidden-phone {display: none;}
 }
