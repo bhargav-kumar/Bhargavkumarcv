@@ -84,7 +84,49 @@ h3 {
 }
 
 /* Education */
-#education .academic {
+#projects .project {
+    margin-bottom: 20px;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+}
+
+#projects .project p > strong {
+    display: block;
+    /* padding-top: 8px; */
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#projects .projects .academic-details {
+    display: block;
+    margin-top: 6px;
+}
+
+#projects .projects .project-details * {
+    color: #22A39F;
+}
+
+#projects .project-details > span {
+    display: block;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.project-summary {
+    text-align: left;
+}
+
+#project .projects .project-details .seperator { display: none; }
+
+#projects .projects .project-details .seperator {
+    color: #BCBCBC;
+ }
+
+
+ /* Projects */
+ #education .academic {
     margin-bottom: 20px;
 }
 
@@ -123,6 +165,10 @@ h3 {
 #education .academics .academic-details .seperator {
     color: #BCBCBC;
  }
+
+
+
+
 
 /* Experience */
 #experiences .experience p > strong {
