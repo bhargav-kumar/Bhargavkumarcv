@@ -1,7 +1,9 @@
 body {
     margin: 0;
-    
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    background: #F3EFE0;
+    font-size: 15px;
+    line-height: 1.64;
 }
 
 h1,
@@ -37,6 +39,10 @@ h4 {
     margin-bottom: 10px;
 }
 
+h4 {
+    font-size: 16px;
+}
+
 
 
 p {
@@ -55,19 +61,61 @@ p {
     text-align: center;
 }
 
-.middle-container {}
-
 h2,
 h3 {
     font-weight: 300;
     color: #22A39F;
 }
 
-.bottom-container {}
-
 #experiences .experience {
     margin-bottom: 20px;
 }
+
+#education .academics {
+    margin-bottom: 20px;
+}
+
+#education .academics p > strong {
+    display: block;
+    padding-top: 8px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#education .academics .academic-details {
+    display: block;
+    margin-top: 6px;
+}
+
+#education .academics .academic-details * {
+    color: #22A39F;
+}
+
+#education .academic-details > span {
+    display: block;
+    margin-bottom: 6px;
+    text-align: left;
+}
+
+.academics-summary {
+    text-align: left;
+}
+
+#education .academics .academic-details .seperator { display: none; }
+
+#education .academics .academic-details .seperator {
+    color: #BCBCBC;
+ }
+
+
+
+
+
+
+
+
+
+
 
 #experiences .experience p > strong {
     display: block;
@@ -134,12 +182,6 @@ body {
     height: 100%;
 }
 
-body {
-    background: #F3EFE0;
-    font-size: 15px;
-    line-height: 1.64;
-}
-
 .no-bullets {
     list-style-type: none;
     margin: 0px;
@@ -182,4 +224,5 @@ body {
 @media (max-width: 767px) {
     .container {padding: 60px 20px; min-width: 280px;}
     .hidden-phone {display: none;}
+    
 }
