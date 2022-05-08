@@ -6,6 +6,13 @@ body {
     line-height: 1.64;
 }
 
+html,
+body {
+    color: #434242;
+    font-family: 'Open Sans', sans-serif !important;
+    height: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -22,6 +29,15 @@ strong,
 b {
     font-family: 'Open Sans', sans-serif !important;
     margin-bottom: 20px;
+}
+
+#technicalSkills h6 {
+    font-size: 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    color: #434242;
 }
 
 h2 {
@@ -67,7 +83,8 @@ h3 {
     color: #22A39F;
 }
 
-#experiences .experience {
+/* Education */
+#education .academic {
     margin-bottom: 20px;
 }
 
@@ -77,7 +94,7 @@ h3 {
 
 #education .academics p > strong {
     display: block;
-    padding-top: 8px;
+    /* padding-top: 8px; */
     margin-bottom: 10px;
     text-align: left;
 }
@@ -107,19 +124,10 @@ h3 {
     color: #BCBCBC;
  }
 
-
-
-
-
-
-
-
-
-
-
+/* Experience */
 #experiences .experience p > strong {
     display: block;
-    padding-top: 8px;
+    /* padding-top: 8px; */
     margin-bottom: 10px;
     text-align: left;
 }
@@ -166,6 +174,7 @@ h3 {
     display: inline-block;
     width: 70%;
     text-align: left;
+    margin-left: 1em;
 }
 
 hr {
@@ -173,13 +182,6 @@ hr {
     border-color: #727878;
     opacity: 0.2;
     filter: alpha(opacity=20);
-}
-
-html,
-body {
-    color: #434242;
-    font-family: 'Open Sans', sans-serif !important;
-    height: 100%;
 }
 
 .no-bullets {
@@ -190,21 +192,23 @@ body {
 
 #technicalSkills ul>li .skills-score {
     float: right;
-}
-
-#technicalSkills ul>li .skills-score .glyphicon {
     font-size: 14px;
     transition: all 0.3s;
+    color: #22A39F;
+}
+
+#technicalSkills ul>li .skills-score:hover {
+    transform: scale(1.2);
 }
 
 #technicalSkills ul>li .skills-score .glyphicon.filled {
     color: #22A39F;
 }
 
-.row {
+/* .row {
     margin-right: -15px;
     margin-left: -15px;
-}
+} */
 
 .top-cloud {
     position: absolute;
