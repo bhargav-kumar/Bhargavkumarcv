@@ -287,7 +287,10 @@ hr {
 }
 
 #contact a {
+    display: block;
     line-height: 32px;
+    margin-bottom: 20px;
+    opacity: 0.6;
 }
 
 .icon.icon-twitter {
@@ -300,6 +303,27 @@ hr {
     width: 32px;
 }
 
+#contact a .icon {
+    float: left;
+    margin-right: 20px;
+}
+
 #contact .row * {
     color: #FFFFFF;
+}
+
+#projects img {
+    height: 120px;
+    width: 350px;
+}
+
+#contact a:hover {
+    opacity: 1;
+    text-decoration: none;
+    transform: scale(1);
+    color: #FFFFFF;
+}
+
+#contact {
+    padding-bottom: 100px;
 }
