@@ -166,10 +166,6 @@ h3 {
     color: #BCBCBC;
  }
 
-
-
-
-
 /* Experience */
 #experiences .experience p > strong {
     display: block;
@@ -216,6 +212,10 @@ h3 {
     padding: 10px 180px;
 }
 
+.background-white {
+    background: #FFFFFF;
+}
+
 #technicalSkills ul>li .skills-title {
     display: inline-block;
     width: 70%;
@@ -251,11 +251,6 @@ hr {
     color: #22A39F;
 }
 
-/* .row {
-    margin-right: -15px;
-    margin-left: -15px;
-} */
-
 .top-cloud {
     position: absolute;
     right: 300px;
@@ -283,7 +278,7 @@ hr {
 
 #contact a .icon {
     float: left;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 
 #contact a {
@@ -326,4 +321,14 @@ hr {
 
 #contact {
     padding-bottom: 100px;
+}
+
+/* #projects a {
+    position: absolute;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+} */
+#projects a:hover {
+    outline: 0px;
 }
