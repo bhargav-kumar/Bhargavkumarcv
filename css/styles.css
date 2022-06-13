@@ -108,6 +108,12 @@ h3 {
 
 #projects .projects .project-details * {
     color: #22A39F;
+    text-decoration: none;
+}
+
+#projects .projects .project-details a:hover {
+    outline: 0px;
+    text-decoration: underline;
 }
 
 #projects .project-details>span {
@@ -158,6 +164,15 @@ h3 {
     color: #BCBCBC;
 }
 
+#education .academics .academic-details a {
+    text-decoration: none;
+}
+
+#education .academics .academic-details a:hover,
+#experiences a:hover {
+    text-decoration: underline;
+}
+
 /* Experience */
 #experiences .experience p>strong {
     display: block;
@@ -192,12 +207,16 @@ h3 {
     text-align: left;
 }
 
-#experiences .experience .experience-details .seperator {
+#experiences .experience .experience-details .separator {
     display: none;
 }
 
-#experiences .experience .experience-details .seperator {
+#experiences .experience .experience-details .separator {
     color: #BCBCBC;
+}
+
+#experiences a {
+    text-decoration: none;
 }
 
 .container {
@@ -320,10 +339,6 @@ hr {
 
 #contact {
     padding-bottom: 100px;
-}
-
-#projects a:hover {
-    outline: 0px;
 }
 
 #menu .menuItem .menuItems {
