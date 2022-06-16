@@ -212,10 +212,6 @@ h3 {
 }
 
 #experiences .experience .experience-details .separator {
-    display: none;
-}
-
-#experiences .experience .experience-details .separator {
     color: #BCBCBC;
 }
 
@@ -262,10 +258,10 @@ hr {
 #technicalSkills ul>li .skills-score:hover {
     transform: scale(1.2);
 }
-
+/* 
 #technicalSkills ul>li .skills-score .glyphicon.filled {
     color: #22A39F;
-}
+} */
 
 .top-cloud {
     position: absolute;
