@@ -205,10 +205,8 @@ h3 {
     display: block;
     margin-bottom: 6px;
     text-align: left;
-}
-
-.experience-summary {
-    text-align: left;
+    white-space: normal;
+    position: relative;
 }
 
 #experiences .experience .experience-details .separator {
@@ -279,7 +277,7 @@ hr {
     bottom: 300px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
     .container {
         padding: 60px 20px;
         min-width: 280px;
@@ -355,6 +353,7 @@ hr {
 
 .nav {
     justify-content: end;
+    position: sticky;
 }
 
 .nav-container {
@@ -363,12 +362,12 @@ hr {
 
 .nav-link {
     color: #22A39F;
+    padding: 4px 8px;
 }
 
 nav .nav-link:hover,
 nav .nav-link:focus {
     color: black !important;
-    text-transform: uppercase;
     background-color: #22A39F;
 }
 
