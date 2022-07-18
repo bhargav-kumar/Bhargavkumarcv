@@ -363,6 +363,7 @@ hr {
 .nav-link {
     color: #22A39F;
     padding: 4px 8px;
+    font-size: 14px;
 }
 
 nav .nav-link:hover,
