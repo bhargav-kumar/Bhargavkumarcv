@@ -117,9 +117,8 @@ h3 {
 }
 
 #projects .project-details>span {
-    display: block;
+    display: inline-block;
     margin-bottom: 6px;
-    text-align: left;
 }
 
 .project-summary {
@@ -189,6 +188,12 @@ h3 {
     margin-top: 6px;
 }
 
+.experience-summary {
+    text-justify: inter-word;
+    display: flex;
+    text-align: justify;
+}
+
 h3 {
     text-align: center;
 }
@@ -201,12 +206,12 @@ h3 {
     color: #22A39F;
 }
 
-#experiences .experience-details>span {
-    display: block;
+#experiences .experience-details > span {
+    /* display: block; */
     margin-bottom: 6px;
-    text-align: left;
-    white-space: normal;
-    position: relative;
+    /* text-align: left; */
+    /* white-space: normal; */
+    /* position: relative; */
 }
 
 #experiences .experience .experience-details .separator {
@@ -256,19 +261,11 @@ hr {
 #technicalSkills ul>li .skills-score:hover {
     transform: scale(1.2);
 }
-/* 
-#technicalSkills ul>li .skills-score .glyphicon.filled {
-    color: #22A39F;
-} */
 
 .top-cloud {
     position: absolute;
     right: 300px;
     top: 50px;
-}
-
-.hidden-phone {
-    text-align: left;
 }
 
 .bottom-cloud {
@@ -281,10 +278,6 @@ hr {
     .container {
         padding: 60px 20px;
         min-width: 280px;
-    }
-
-    .hidden-phone {
-        display: none;
     }
 }
 
