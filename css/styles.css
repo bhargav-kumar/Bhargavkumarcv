@@ -389,3 +389,8 @@ i.fw {
 #myBtn:hover {
     background-color: #555;
 }
+
+a {
+    text-decoration: none;
+    color: #434242;
+}
